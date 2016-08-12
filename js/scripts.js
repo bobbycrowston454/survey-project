@@ -5,6 +5,7 @@ $(document).ready(function() {
     var company1 = $("#company1").val();
     var style1 = $("#style1").val();
     var nameinput = $("input#name1").val();
+    var interaction1 = $("#interaction1")
 
     $(".fpath").hide();
     $(".bpath").hide();
