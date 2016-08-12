@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/styles.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
     <!-- <script src="js/jquery-3.1.0.js"></script> -->NEED JQUERY
     <script src="js/scripts.js"></script>
     <title></title>
@@ -10,8 +11,15 @@
   <body>
     <div class="container">
       <h1>What Path Should You Take?</h1>
-      <form class="courses">
-        <label for="interests">Interests</label>
+      <h4><em>Everyone is required to take Intro to Programming and Javascript!</em></h4>
+      <form class="course">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input id="name1" class="form-control" type="text"><hr>
+          <label for="age">Age:</label>
+          <input id="age1" class="form-control" type="text"><hr>
+        </div>
+        <label for="interest">Interests</label>
         <select id="type1">
           <option value="mobile">Mobile</option>
           <option value="front">Front End</option>
@@ -23,9 +31,29 @@
           <option value="some">Some Experience</option>
           <option value="lot">A Lot of Experience</option>
         </select><hr>
+        <label for="business">Big Business or startup</label>
+        <select id="busi"><hr>
+          <option value="small">Startup</option>
+          <option value="big">established Big Business</option>
+          <label for="exper">Experience</label>
+          <select id="experience"><hr>
+            <option value="none">No Experience</option>
+            <option value="some">Some Experience</option>
+            <option value="lot">A Lot of Experience</option>
+          </select><hr>
+
+        </select><hr>
         <button type="submit" class="btn">Show me my courses!</button>
       </form>
-
+      <div class="mpath">
+        <p>Congrats <span class="name"></span>! You should be taking the Java and android course!</p>
+      </div>
+      <div class="fpath">
+        <p>Congrats <span class="name"></span>! You should be taking the Design and CSS course!</p>
+      </div>
+      <div class="bpath">
+        <p>Congrats <span class="name"></span>! You should be taking the PHP and Drupal course!</p>
+      </div>
     </div>
   </body>
 </html>
