@@ -5,8 +5,9 @@
   border-radius: 5px;
   margin-top: 15px;
   padding-top: 5px;
-  padding-left: 5px;
   font-family: sans-serif;
+  padding-right: 5px;
+  text-align: center;
 }
 
 .fpath {
@@ -16,7 +17,7 @@
   border-radius: 5px;
   margin-top: 15px;
   padding-top: 5px;
-  padding-left: 5px;
+  text-align: center;
   font-family: sans-serif;
 }
 
@@ -27,7 +28,7 @@
   border-radius: 5px;
   margin-top: 15px;
   padding-top: 5px;
-  padding-left: 5px;
+  text-align: center;
   font-family: sans-serif;
 }
 
@@ -38,7 +39,7 @@
   border-radius: 5px;
   margin-top: 15px;
   padding-top: 5px;
-  padding-left: 5px;
+  text-align: center;
   font-family: sans-serif;
 }
 
@@ -49,7 +50,7 @@
   border-radius: 5px;
   margin-top: 15px;
   padding-top: 5px;
-  padding-left: 5px;
+  text-align: center;
   font-family: sans-serif;
 }
 
@@ -64,7 +65,7 @@
 
 body{
   font-family: serif;
-  background-color: #00ddcc;
+  background-color: #b6ebe9;
 }
 
 img {
@@ -72,11 +73,47 @@ img {
   max-height: 400px;
   width: auto;
   height: auto;
-  float: center;
   border: solid;
   border-radius: 8px;
+  margin-top: 10px;
 }
 
 h5 {
   font-size: 18px;
+}
+
+
+.dpath img {
+  max-width: 200px;
+  max-height: 200px;
+  height: auto;
+  width: auto;
+}
+
+.cpath img {
+  max-width: 200px;
+  max-height: 200px;
+  height: auto;
+  width: auto;
+}
+
+.bpath img {
+  max-width: 200px;
+  max-height: 200px;
+  height: auto;
+  width: auto;
+}
+
+.fpath img {
+  max-width: 200px;
+  max-height: 200px;
+  height: auto;
+  width: auto;
+}
+
+.mpath img {
+  max-width: 200px;
+  max-height: 200px;
+  height: auto;
+  width: auto;
 }
