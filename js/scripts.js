@@ -14,7 +14,7 @@ $(document).ready(function() {
     $(".dpath").hide();
 
     $(".name").text(nameinput);
-    if (interest1 === "mobile" && experience === "some" && company1 === "small" || interest1 === "mobile" && experience === "none" || interest1 === "mobile" && company1 === "small" ) {
+    if (interest1 === "mobile" && experience === "some" && company1 === "small" || interest1 === "mobile" && experience === "none" || interest1 === "mobile" && company1 === "small" || interest1 === "mobile" && experience === "some") {
       $(".mpath").slideDown(600).show();
     } else if (interest1 === "front" && experience === "none" && company1 === "small" || company1 === "big" && interest1 === "front" && experience === "some" || company1 === "big" && interest1 === "front" && experience === "none") {
       $(".fpath").slideDown(600).show();
