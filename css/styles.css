@@ -3,21 +3,56 @@
   border: solid;
   border-width: 2px 4px 2px 4px;
   border-radius: 5px;
-  margin-top: 10px;
+  margin-top: 15px;
   padding-top: 5px;
   padding-left: 5px;
   font-family: sans-serif;
-
 }
+
 .fpath {
   display: none;
+  border: solid;
+  border-width: 2px 4px 2px 4px;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding-top: 5px;
+  padding-left: 5px;
+  font-family: sans-serif;
 }
+
 .bpath{
   display: none;
+  border: solid;
+  border-width: 2px 4px 2px 4px;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding-top: 5px;
+  padding-left: 5px;
+  font-family: sans-serif;
 }
+
 .cpath {
   display: none;
+  border: solid;
+  border-width: 2px 4px 2px 4px;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding-top: 5px;
+  padding-left: 5px;
+  font-family: sans-serif;
 }
+
+.dpath{
+  display: none;
+  border: solid;
+  border-width: 2px 4px 2px 4px;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding-top: 5px;
+  padding-left: 5px;
+  font-family: sans-serif;
+}
+
 .topbar {
   float: right;
 }
@@ -25,4 +60,23 @@
 .jumbotron {
   padding-top: 15px;
   padding-bottom: 15px
+}
+
+body{
+  font-family: serif;
+  background-color: #00ddcc;
+}
+
+img {
+  max-width: 500px;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+  float: center;
+  border: solid;
+  border-radius: 8px;
+}
+
+h5 {
+  font-size: 18px;
 }
