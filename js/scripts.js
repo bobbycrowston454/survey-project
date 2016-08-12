@@ -14,15 +14,15 @@ $(document).ready(function() {
 
     $(".name").text(nameinput);
     if (interest1 === "mobile" && experience === "some" && company1 === "small" || interest1 === "mobile" && experience === "none" || interest1 === "mobile" && company1 === "small" ) {
-      $(".mpath").show();
+      $(".mpath").slideDown(600).show();
     } else if (interest1 === "front" && experience === "none" && company1 === "small" || company1 === "big" && interest1 === "front" && experience === "some" || company1 === "big" && interest1 === "front" && experience === "none") {
-      $(".fpath").show();
+      $(".fpath").slideDown(600).show();
     } else if (interest1 === "back" && experience === "some" && company1 === "small" && style1 === "no"|| interest1 === "back" && experience === "none" && company1 === "small" && style1 === "no") {
-      $(".bpath").show();
+      $(".bpath").slideDown(600).show();
     } else if (interest1 === "back" && experience === "some" && company1 === "big" && style1 === "no" || interest1 === "back" && experience === "none" && company1 === "big" && style1 === "no") {
-      $(".cpath").show();
+      $(".cpath").slideDown(600).show();
     } else if (interest1 === "back" && experience === "some" && company1 === "small" && style1 ==="yes"|| interest1 === "back" && experience === "none" && company1 === "small" && style1 === "yes") {
-      $(".dpath").show();
+      $(".dpath").slideDown(600).show();
     }
     event.preventDefault();
   });

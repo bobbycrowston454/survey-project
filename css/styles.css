@@ -56,16 +56,43 @@
 
 .topbar {
   float: right;
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+}
+
+ul img {
+  max-width: 160px;
+  max-height: 200px;
+  height: auto;
+  width: auto;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  border-left: 2px solid #bbb;
+}
+li:first-child {
+  border-left: none;
+}
+
+.active {
+  background: red;
 }
 
 .jumbotron {
   padding-top: 15px;
-  padding-bottom: 15px
+  padding-bottom: 15px;
+  text-align: center;
+  color: black;
 }
 
 body{
   font-family: serif;
-  background-color: #b6ebe9;
+  background-image: url("http://rockrunpottery.com/wordpress/wp-content/uploads/2011/02/background.jpg");
+  color: white;
 }
 
 img {
