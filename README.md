@@ -16,6 +16,7 @@ _This site is a survey for potential and current epicodus students to determine 
 * _use git clone and paste that link after it to clone the repository_
 * _open the folder it provides_
 * _open the HTML folder inside_
+* _link for gh-pages https://bobbycrowston454.github.io/survey-project/_
 
 
 ## Contact Details
